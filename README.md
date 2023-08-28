@@ -27,9 +27,9 @@ This repository contains a simple Android app that calculates the cutoff marks a
       git clone   https://github.com/your-username/cutoff-calculator.git
      
      
-2. Open Android Studio and select "Open an existing Android Studio project."
+ 2. Open Android Studio and select "Open an existing Android Studio project."
 
- 3.Navigate to the cloned repository's directory and select the cutoff-calculator folder.
+3.Navigate to the cloned repository's directory and select the cutoff-calculator folder.
    
 **USAGE**
 
