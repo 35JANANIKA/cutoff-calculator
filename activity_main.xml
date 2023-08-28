@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100sp"
+                android:gravity="center"
+                android:text="Cutoff Calculator"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:textColor="#E91E63"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100sp"
+                android:text="name"
+                android:textColor="#C80C70"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/stname"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#3F51B5"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100sp"
+                android:text="marks1"
+                android:textColor="#D81B60"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/mark1"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#673AB7"
+
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100sp"
+                android:text="marks2"
+                android:textColor="#D81B60"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/mark2"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#E91E63"
+
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100sp"
+                android:text="marks3"
+                android:textColor="#D81B60"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/mark3"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#E91E63"
+
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="129dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="100sp"
+                android:text="total"
+                android:textColor="#E91E63"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck,TextSizeCheck" />
+
+            <EditText
+                android:id="@+id/total"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#E91E63"
+
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="110sp"
+                android:text="cutoff"
+                android:textColor="#D81B60"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/cutoff"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minWidth="48dp"
+
+                android:textColor="#E91E63"
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="130sp"
+                android:text="grade"
+                android:textColor="#E91E63"
+                android:textSize="40sp"
+                android:textStyle="italic"
+
+                tools:ignore="HardcodedText,RtlHardcoded,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/grade"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#3F51B5"
+
+                tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            tools:ignore="RtlHardcoded,UselessLeaf" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="250dp"
+            android:layout_height="67dp"
+            android:text="Ok"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+    </LinearLayout>
+
+</LinearLayout>
+
