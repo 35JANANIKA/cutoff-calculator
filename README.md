@@ -5,7 +5,9 @@ This repository contains a simple Android app that calculates the cutoff marks a
 **FEATURES** 
 
   1.Calculate the total marks of a student based on three input exam scores.
+
   2.Calculate the cutoff marks using a specified formula.
+
   3.Assign a grade based on the calculated cutoff marks.
   
 **PREREQUISITES**
@@ -19,6 +21,7 @@ This repository contains a simple Android app that calculates the cutoff marks a
 **INSTALLATION**
 
     1.Clone the repository to your local machine using the following command:
+
 
     Copy code
      git clone https://github.com/your-username/cutoff-calculator.git
