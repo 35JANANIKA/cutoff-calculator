@@ -1,4 +1,5 @@
 **CUTOFF CALCULATOR ANDROID APP**
+
 This repository contains a simple Android app that calculates the cutoff marks and assigns a grade based on the input marks. The app is built using Android Studio and Java.
 
 **FEATURES** 
@@ -12,6 +13,7 @@ This repository contains a simple Android app that calculates the cutoff marks a
    Before you begin, ensure you have met the following requirements:
 
     1.Android Studio is installed on your machine.
+    
     2.Basic knowledge of Android app development.
     
 **INSTALLATION**
