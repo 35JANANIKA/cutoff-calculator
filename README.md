@@ -26,17 +26,23 @@ This repository contains a simple Android app that calculates the cutoff marks a
     Copy code
      git clone https://github.com/your-username/cutoff-calculator.git
      
-   2. Open Android Studio and select "Open an existing Android Studio project."
+     
+    2. Open Android Studio and select "Open an existing Android Studio project."
 
-   3.Navigate to the cloned repository's directory and select the cutoff-calculator folder.
+    3.Navigate to the cloned repository's directory and select the cutoff-calculator folder.
    
 **USAGE**
 
   1.Open the app in Android Studio.
+  
   2.Connect an Android device or start an emulator.
+  
   3.Run the app by clicking the "Run" button in Android Studio.
+  
   4.The app's interface will appear, allowing you to input the student's name and exam scores.
+  
   5.Press the "OK" button to calculate the total marks, cutoff, and grade based on the given scores.
+  
 
 **How It Works**
     The app's MainActivity.java contains the logic for calculating the total marks, cutoff, and grade based on the input exam scores. It uses the provided formula and cutoff ranges to determine the grade.
