@@ -45,4 +45,5 @@ This repository contains a simple Android app that calculates the cutoff marks a
   
 
 **How It Works**
+
     The app's MainActivity.java contains the logic for calculating the total marks, cutoff, and grade based on the input exam scores. It uses the provided formula and cutoff ranges to determine the grade.
